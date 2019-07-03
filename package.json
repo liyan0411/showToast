@@ -1,6 +1,6 @@
 {
   "name": "ajshowtoast",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "移动端toast提示框",
   "main": "index.js",
   "directories": {
