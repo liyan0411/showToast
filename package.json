@@ -1,0 +1,27 @@
+{
+  "name": "ajshowtoast",
+  "version": "1.0.1",
+  "description": "移动端toast提示框",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liyan0411/showToast.git"
+  },
+  "keywords": [
+    "showtoast",
+    "vue-showtoast",
+    "toast"
+  ],
+  "author": "liyan0411",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liyan0411/showToast/issues"
+  },
+  "homepage": "https://github.com/liyan0411/showToast#readme"
+}
