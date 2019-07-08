@@ -13,6 +13,14 @@ import Vue from 'vue';
 import showtoast from 'ajshowtoast';
 
 Vue.use(showtoast);
+注：由于使用了字符串模板语法渲染dom，如果有报错。
+([Vue warn]: You are using the runtime-only build of Vue where the template compiler is not available. Either pre-compile the templates into render functions, or use the compiler-included build.)
+请修改webpack配置：
+resolve: {
+	alias: {
+		'vue$': 'vue/dist/vue.esm.js'
+	}
+}
 ```
 #### 基本用法  
 ```
